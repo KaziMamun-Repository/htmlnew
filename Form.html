@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            #main{
+                margin: 0px auto;
+                width: 1000px;
+            }
+            #main_content{
+                float: left;
+                border: none;
+                width: 100%;
+            }
+            header{
+                width: 99.8%;
+                height: 100px;
+                border: 1px solid none;
+                float: left;
+				background-color:#E4E4E4;
+            }
+            nav{
+               height: 50px;
+               width: 99.8%;
+               float: left;
+               border: 1px dotted none;
+			   background-color:wheat;
+            }
+            #content{
+                width: 99.8%;
+                float: left;
+                height: 500px;
+                border: 1px dotted none;
+				background-color:#F0F0F0
+            }
+            footer{
+                width: 99.8%;
+                height: 70px;
+                border: 1px solid none;
+                float: left;
+				background-color:#E4E4E4;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="main_content">
+                <header> <h1 style="color: maroon ;", align="center"> This is main page Form</h1></header>
+                <nav></nav>
+                <div id="content">
+                    
+                  
+					 <!--                    main content-->
+                    <fieldset>
+                        <legend>Sign UP Form:</legend>
+                        <form action="registaiontable.html" method="post">
+                            <table>
+                                <tr>
+                                    <td>Full Name: </td>
+                                    <td><input type="text" name="name" size="50" placeholder="type your name"></td>
+                                </tr
+								 <tr>
+                                    <td>Father Name: </td>
+                                    <td><input type="text" name="fathername" size="50" placeholder="type your name"></td>
+                                </tr>
+                               
+
+								 <tr>
+                                    <td>Unversity Name: </td>
+                                    <td><input type="text" name="universityname" size="50" placeholder="type your name"></td>
+                                </tr>
+								<tr>
+								    <td>Studient ID: </td>
+                                    <td><input type="text" name="studentid" size="50" placeholder="type your student id"></td>
+								</tr>
+								 <tr>
+                                    <td>Email : </td>
+                                    <td><input type="text" name="email" size="50" placeholder="Your email id"></td>
+                                </tr>
+								<tr>
+                                    <td>Skill: </td>
+                                    <td><textarea name="msg" cols="39" rows="6" placeholder="type your message hare..."></textarea></td>
+                                </tr>
+								
+								<tr>
+				   							  
+								     <td> Select image to upload:</td>
+								     <td> <input type="file" name="fileToUpload" id="fileToUpload"></td>
+								 </tr>
+								 
+								 <tr>
+							          <td> <input type="submit" value="Upload Image" name="submit"></td>
+								</tr>
+													
+							
+																	
+								
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="Send"><input type="reset" value="Clear"></td>
+                                </tr>
+                                
+                            </table>
+                        </form>
+                    </fieldset>
+
+                   
+                </div>
+                <footer></footer>
+            </div>
+        </div>
+    </body>
+</html>
